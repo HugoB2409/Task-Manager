@@ -1,0 +1,9 @@
+﻿<Application x:Class="TaskManager.UI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:locators="clr-namespace:TaskManager.BusinessLogic.Locators;assembly=TaskManager.BusinessLogic"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <locators:ViewModelLocator x:Key="Locator"/>
+    </Application.Resources>
+</Application>

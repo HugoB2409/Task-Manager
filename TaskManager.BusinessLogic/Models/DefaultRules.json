@@ -1,0 +1,25 @@
+﻿[{
+		"process": "brave",
+		"resource": "cpu",
+		"threshold": 20,
+		"notification": "warning"
+	},
+	{
+		"process": "chrome",
+		"resource": "ram",
+		"threshold": 35,
+		"notification": "Information"
+	},
+	{
+		"process": "excel",
+		"resource": "disk",
+		"threshold": 100,
+		"notification": "error"
+	},
+	{
+		"process": "steam",
+		"resource": "cpu",
+		"threshold": 50,
+		"notification": "warning"
+	}
+]
